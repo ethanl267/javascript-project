@@ -1,0 +1,53 @@
+.container{
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+.container button{
+    display: block;
+    color:whitesmoke;
+    text-align: center;
+    background-color:black;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+    bottom:16px;
+    box-sizing: border-box;
+    width:50%;
+    bottom: 0%;
+    left: 0;
+    margin-left: 74px;
+
+}
+
+.container button:hover{
+    background-color: blue;
+}
+.projects h3 u{
+    font-size: 50px;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 2em auto;
+
+}
+
+.card{
+    position: relative;
+    flex:0 0 30%;
+    border:none;
+    margin-bottom: 50px;
+
+    
+}
+
+body{
+    color: black;
+}

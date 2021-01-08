@@ -1,0 +1,53 @@
+section {
+    display: block;
+  }
+
+
+
+  * {box-sizing: border-box}
+
+  .skill-container {
+    width: 67%;
+    background-color: #ddd;
+    margin-left: 15%;
+  
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:whitesmoke;
+  }
+  
+  .html {width: 80%; background-color: #4CAF50; animation: html 2s ease-in;}
+  .css {width: 80%; background-color: #2196F3; animation: css 4s ease-in;}
+  .js {width: 50%; background-color: #f44336; animation: js 5s ease-in;}
+  .python {width: 60%; background-color: black; animation: python 6s ease-in;}
+
+@keyframes html{
+  0%{width: 0px;}
+  100%{width:80%}
+}
+
+@keyframes css{
+  0%{width: 0px;}
+  100%{width:80%}
+}
+
+@keyframes js{
+  0%{width: 0px;}
+  100%{width:50%}
+}
+
+@keyframes python{
+  0%{width: 0px;}
+  100%{width:70%}
+}
+
+
+body{
+  background-color:whitesmoke;
+  text-align: center;
+  font-size: larger;
+}
